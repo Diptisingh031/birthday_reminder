@@ -1,34 +1,40 @@
 .App {
   text-align: center;
-  padding: 2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  font-style: inherit;
+  background-color: rgb(198, 125, 42);
+  padding: 5rem;
 }
 
 .birthday-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
   gap: 1rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .birthday-card {
-  background-color: #34cdf3;
-  border-radius: 8px;
+  background-color: rgb(214, 58, 58);
+  border-radius: 10px;
+  font-family: cursive;
   padding: 1rem;
-  box-shadow: 0px 2px 4px rgba(233, 106, 106, 0.1);
 }
 .birthday-card h1 {
-  margin-top: 0;
+  font-size: large;
+  font: bold;
 }
 
 .birthday-card button {
-  background-color: #ff6b6b;
-  border: rgb(115, 204, 12);
+  background-color: #413f3f;
+  border: rgb(35, 36, 33);
   color: rgb(255, 255, 255);
-  padding: 0.5rem 1rem;
-  border-radius: 6px;
-  cursor: pointer;
+  padding: 1rem 1rem;
+  border-radius: 12px;
+  font-family: 'Times New Roman', Times, serif;
+  cursor: pointer ;
+
 }
 
 .birthday-card button:hover {
-  background-color: #e63c3c;
+  background-color: #000000;
 }
